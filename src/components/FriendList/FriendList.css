@@ -2,10 +2,14 @@
   display: flex;
   flex-direction: column;
   margin: 20px auto;
+  width: 500px;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
   align-items: center;
+  border: 1px solid #e4e4e4;
+  background-color: lightgray;
+  border-radius: 5px;
 }
 
 .friend-item {

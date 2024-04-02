@@ -17,9 +17,10 @@
 }
 
 .stats-title {
-  font-size: 30px;
+  font-size: 25px;
   margin-top: 30px;
   color: grey;
+  text-transform: uppercase;
 }
 
 .stats-ul {

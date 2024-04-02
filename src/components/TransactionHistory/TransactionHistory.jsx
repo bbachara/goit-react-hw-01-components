@@ -1,7 +1,7 @@
 import React from 'react';
 import './TransactionHistory.css';
 
-function Transactions({ transactions }) {
+export default function Transactions({ transactions }) {
   return (
     <table className="transaction-table">
       <thead>
@@ -24,4 +24,4 @@ function Transactions({ transactions }) {
   );
 }
 
-export default Transactions;
+// export default Transactions;

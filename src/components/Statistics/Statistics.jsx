@@ -9,7 +9,7 @@ function Statistics({ title, stats }) {
   return (
     <div className="stats-card">
       <div className="stats-card-title">
-        <h1 className="stats-title">{title}</h1>
+        <h2 className="stats-title">{title}</h2>
       </div>
       <ul className="stats-ul">
         {stats.map(stat => {
