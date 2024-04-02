@@ -1,0 +1,33 @@
+.transaction-table {
+  width: 500px;
+  /* border-collapse: collapse; */
+  margin: 20px auto;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.transaction-table thead th {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.transaction-table tbody td {
+  background-color: #f7f7f7;
+  color: #333;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.transaction-table th,
+.transaction-table td {
+  border-right: 1px solid #eaeaea;
+  padding: 10px;
+  text-align: center;
+}
+
+.transaction-table th:last-child,
+.transaction-table td:last-child {
+  border-right: none;
+}
