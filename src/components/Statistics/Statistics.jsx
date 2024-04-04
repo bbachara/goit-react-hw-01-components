@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Statistics.css';
 
 function getRandomHue() {
@@ -39,3 +40,7 @@ function Statistics({ title, stats }) {
 }
 
 export default Statistics;
+
+Statistics.propTypes = {
+  data: PropTypes.string,
+};

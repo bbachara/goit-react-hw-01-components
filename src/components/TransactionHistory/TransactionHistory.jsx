@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './TransactionHistory.css';
 
 export default function Transactions({ transactions }) {
@@ -24,4 +25,9 @@ export default function Transactions({ transactions }) {
   );
 }
 
-// export default Transactions;
+Transactions.propTypes = {
+  id: PropTypes.string,
+  type: PropTypes.string,
+  amount: PropTypes.number,
+  currency: PropTypes.string,
+};
